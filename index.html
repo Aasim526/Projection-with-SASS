@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <title>Projection With Flexbox</title>
+</head>
+<body>
+
+    <!-- header starts -->
+    <header class="bg" id="home">
+
+        <nav id="navigation">
+            <a href="#home">Projection <span>by Aasim</span></a>
+            <span class="fa fa-bars toggle-btn"></span>
+            <ul id="ul">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="banner inner">
+            <h1>Welcome to Projection</h1>
+            <div class="three-box flex">
+                <div class="box">
+                    <span class="fa fa-car"></span>
+                    <h3>Aliquam</h3>
+                    <p>Suspendisse amet ullamco</p>
+                </div>
+                <div class="box border">
+                    <span class="fa fa-camera"></span>
+                    <h3>Elementum</h3>
+                    <p>Class aptent taciti ad litora</p>
+                </div>
+                <div class="box">
+                    <span class="fa fa-bug"></span>
+                    <h3>Ultrices</h3>
+                    <p>Nulla viate mauris non felis</p>
+                </div>
+            </div>
+            <button class="btn">GET STARTED</button>
+        </div>
+    </header>
+    <!-- header starts -->
+
+
+    <!-- services starts -->
+    <section id="services" >
+        <div class="inner flex two-section">
+            <div class="two-sec-box">
+                <img src="img/pic01.jpg" alt="">
+                <h2>Lorem ipsum <br> dolor consectetur.</h2>
+                <p>Lorem ipsum dolor consectetur adipisicing elit.
+                    Animi laudantium error, ipsam esse libero iure 
+                    aut molestias quam earum.
+                </p>
+                <button class="btn">Learn More</button>
+            </div>
+
+            <div class="two-sec-box">
+                <img src="img/pic02.jpg" alt="">
+                <h2>Lorem ipsum <br> dolor consectetur.</h2>
+                <p>Lorem ipsum dolor consectetur adipisicing elit.
+                    Animi laudantium error, ipsam esse libero iure 
+                    aut molestias quam earum.
+                </p>
+                <button class="btn">Learn More</button>
+            </div>
+        </div>
+    </section>
+    <!-- services starts -->
+
+
+
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <div class="form-section inner flex">
+            <div class="name">
+                <span>Name</span><br>
+                <input type="text" placeholder="Name">
+            </div>
+
+            <div class="email">
+                <span>Email</span><br>
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="msg-sec">
+                <span>Message</span><br>
+                <textarea name="Message" id="msg-box" placeholder="Message"></textarea>
+            </div>
+            <button class="btn">send message</button>
+            <p>Lorem ipsum dolor sit amet adipisicing elit.</p>
+        </div>
+    </section>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
